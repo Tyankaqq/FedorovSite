@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+    width: 95%;
+    margin: 0 auto;
+
+}
+header div{
+    width: 100%;
+    height: 20vh;
+    background-color: white;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 250px;
+    font-weight: 700;   
+}
+.colors-top {
+    color: #F266CB;
+    overflow: hidden;
+    line-height: -0.1;
+    transition: 1s;
+    transform: translateY(0%);
+    z-index: 1;
+}
+.center {
+    background-color: #2E292A;
+    font-size: 100px;
+    color: white;
+    letter-spacing: 20px;
+    text-align: center;
+    z-index: 0;
+}
+header:hover .colors-top{
+    transform: translateY(50%);
+}
+header:hover .colors-bottom{
+    transform: translateY(-50%);
+}
+.colors-bottom {
+    color: #6A32E2;
+    overflow: hidden;
+    line-height: 0;
+    transition: 1s;
+    transform: translateY(-0%);
+}
+h2{
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    font-size: 45px;
+    font-family: "Montserrat", sans-serif;
+}
+.hall_Of_Fame {
+    height: 400px;
+}
+.fotos {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    height: 100%;
+}
+.fotos div{
+    width: 20%;
+    background-position: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    transition: 1s;
+
+}
+.fotos div:hover{
+    width: 40%;
+}
+h5{
+    width: 95%;
+    margin: 0 auto;
+    text-align: end;
+    font-weight: 100;
+    font-size: 35px;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+}
+.collection{
+    margin-top: 120px;
+}
+.collection div{
+    width: 97%;
+    margin: 0 auto;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    background-repeat: no-repeat;
+    margin: 0px 10px;
+    width: 330px;
+    height: 479px;
+    overflow: hidden;
+    transition: 1s;
+}
+li:hover{
+    transform: scale(0.9);
+}
+.information-menu{
+    background-color: rgba(3,3,3,0.8);
+    width: 100%;
+    height: 75%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    top: 25%;
+    transform: translateY(100%);
+    transition: 0.5s;
+}
+li:hover div{
+    transform: translateY(0%);
+} 
+h3{
+    font-size: 25px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+li div div{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 274px;
+}
+li div div p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+li div div a{
+    color: #47B198;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+li div a{
+    color: #47B198;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    width: 274px;
+    margin: 0 auto;
+}
+li div button{
+    width: 274px;
+    height: 63px;
+    font-size: 25px;
+    margin: 0 auto;
+    color: white;
+    background-color: #47B198;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+}
+footer{
+    margin-top: 30px;
+    width: 100%;
+    height: 40vh;
+    background-color: #2E292A;
+}
+footer div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: white;
+    font-size: 35px;
+    font-family: "Montserrat", sans-serif;
+}
